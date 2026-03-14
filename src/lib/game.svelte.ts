@@ -1,6 +1,6 @@
-import { playNote, stopNote, stopAllNotes } from './audio';
-import type { MidiFileInfo, Song } from './types';
 import { SvelteMap } from 'svelte/reactivity';
+import { playNote, stopAllNotes, stopNote } from './audio';
+import type { MidiFileInfo, Song } from './types';
 
 const defaultSong: Song = {
 	path: '',
@@ -22,7 +22,7 @@ export const gameState = $state({
 	elapsedBase: 0,
 	startTime: null as number | null,
 	keyCount: 61,
-	keyWidthMM: 21,
+	keyWidthMM: 22,
 	currentSong: defaultSong,
 	lastTs: performance.now(),
 	lastFrameTime: performance.now(),
