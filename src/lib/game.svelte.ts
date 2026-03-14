@@ -46,7 +46,8 @@ $effect.root(() => {
 
 		(async () => {
 			const { jsonPath } = songInfo;
-			const songPath = `/src/lib/database/${jsonPath}`;
+			const normalizedPath = jsonPath.replace(/\\/g, '/');
+			const songPath = `/src/lib/database/${normalizedPath}`;
 
 			try {
 				const songModule: any = await songModules[songPath]();
