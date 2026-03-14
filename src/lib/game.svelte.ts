@@ -11,23 +11,36 @@ const defaultSong: Song = {
 	jsonPath: ''
 };
 
+function getSavedSetting<T>(key: string, defaultValue: T): T {
+	if (typeof window === 'undefined') return defaultValue;
+	const saved = localStorage.getItem(key);
+	if (saved !== null) {
+		try {
+			return JSON.parse(saved) as T;
+		} catch (e) {
+			return defaultValue;
+		}
+	}
+	return defaultValue;
+}
+
 // Reactive states (Runes)
 export const gameState = $state({
 	playing: false,
-	loop: true,
+	loop: getSavedSetting('pf_loop', true),
 	currentSongInfo: null as MidiFileInfo | null,
 	speed: 1,
 	score: 0,
 	combo: 0,
 	elapsedBase: 0,
 	startTime: null as number | null,
-	keyCount: 61,
-	keyWidthMM: 22,
+	keyCount: getSavedSetting('pf_keyCount', 61),
+	keyWidthMM: getSavedSetting('pf_keyWidthMM', 22),
 	currentSong: defaultSong,
-	lastTs: performance.now(),
-	lastFrameTime: performance.now(),
+	lastTs: typeof performance !== 'undefined' ? performance.now() : 0,
+	lastFrameTime: typeof performance !== 'undefined' ? performance.now() : 0,
 	fallZoneHeight: 360,
-	isKeyboardCompact: true,
+	isKeyboardCompact: getSavedSetting('pf_isKeyboardCompact', true),
 	soundMode: 'music' as 'music' | 'player'
 });
 
@@ -37,6 +50,15 @@ export const pressedKeys = new SvelteMap<number, boolean>();
 const songModules = import.meta.glob('/src/lib/database/**/*.json');
 
 $effect.root(() => {
+	$effect(() => {
+		if (typeof window !== 'undefined') {
+			localStorage.setItem('pf_loop', JSON.stringify(gameState.loop));
+			localStorage.setItem('pf_keyCount', JSON.stringify(gameState.keyCount));
+			localStorage.setItem('pf_keyWidthMM', JSON.stringify(gameState.keyWidthMM));
+			localStorage.setItem('pf_isKeyboardCompact', JSON.stringify(gameState.isKeyboardCompact));
+		}
+	});
+
 	$effect(() => {
 		const songInfo = gameState.currentSongInfo;
 
