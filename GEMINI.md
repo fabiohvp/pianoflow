@@ -40,8 +40,7 @@ You can preview the built application with `npm run preview`.
 
 ### Data Processing Scripts
 The application relies on pre-processed JSON data derived from MIDI files. If you add new MIDI files to `static/musics/`, you must process them using the provided CLI scripts:
-*   **`npm run create-midis`**: Parses MIDI files in `static/musics/` and generates individual `.json` song files in `src/lib/database/`.
-*   **`npm run create-db`**: Scans the processed files and generates a master `db.json` index file in `src/lib/database/` for quick searching and listing.
+*   **`npm run create-db`**: Parses MIDI files in `static/musics/` and generates individual `.json` song files in `src/lib/database/` then scans the processed files and generates a master `db.json` index file in `src/lib/database/` for quick searching and listing.
 
 ### Testing & Linting
 *   **Run tests:** `npm run test`
