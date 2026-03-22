@@ -41,7 +41,9 @@ export const gameState = $state({
 	lastFrameTime: typeof performance !== 'undefined' ? performance.now() : 0,
 	fallZoneHeight: 360,
 	isKeyboardCompact: getSavedSetting('pf_isKeyboardCompact', true),
-	soundMode: 'music' as 'music' | 'player'
+	soundMode: 'music' as 'music' | 'player',
+	countdown: null as number | null,
+	noteColor: getSavedSetting('pf_noteColor', 'classic') as 'classic' | 'ocean' | 'sunset' | 'synthwave' | 'monochrome' | 'forest'
 });
 
 export const scheduledNotes: number[] = [];
@@ -56,6 +58,7 @@ $effect.root(() => {
 			localStorage.setItem('pf_keyCount', JSON.stringify(gameState.keyCount));
 			localStorage.setItem('pf_keyWidthMM', JSON.stringify(gameState.keyWidthMM));
 			localStorage.setItem('pf_isKeyboardCompact', JSON.stringify(gameState.isKeyboardCompact));
+			localStorage.setItem('pf_noteColor', JSON.stringify(gameState.noteColor));
 		}
 	});
 
@@ -84,7 +87,16 @@ $effect.root(() => {
 });
 
 // Derived states and logic
+export function clearCountdown() {
+	if (typeof window !== 'undefined' && (window as any)._countdownInterval) {
+		clearInterval((window as any)._countdownInterval);
+		(window as any)._countdownInterval = null;
+	}
+	gameState.countdown = null;
+}
+
 export function stop() {
+	clearCountdown();
 	gameState.playing = false;
 	gameState.elapsedBase = 0;
 	gameState.startTime = null;
@@ -163,7 +175,24 @@ export function restartGame() {
 	reset();
 	resetHits();
 	clearAudio();
+	clearCountdown();
 
+	gameState.countdown = 3;
+	gameState.playing = true; // Set to true to change play button state
+
+	if (typeof window !== 'undefined') {
+		(window as any)._countdownInterval = setInterval(() => {
+			if (gameState.countdown !== null && gameState.countdown > 1) {
+				gameState.countdown -= 1;
+			} else {
+				clearCountdown();
+				actualRestartGame();
+			}
+		}, 1000);
+	}
+}
+
+function actualRestartGame() {
 	const pxPerMs = 0.22 * gameState.speed;
 	const fallTimeMs = gameState.fallZoneHeight / pxPerMs;
 	const firstNoteT = gameState.currentSong?.notes?.[0]?.t ?? 0;
@@ -180,17 +209,24 @@ export function restartGame() {
 }
 
 export function togglePlay() {
-	gameState.playing = !gameState.playing;
-	if (gameState.playing) {
+	if (gameState.countdown !== null) {
+		clearCountdown();
+		gameState.playing = false;
+		return;
+	}
+
+	if (!gameState.playing) {
 		if (getProgress() <= 0) {
 			restartGame();
 		} else {
+			gameState.playing = true;
 			gameState.lastTs = performance.now();
 			gameState.lastFrameTime = gameState.lastTs;
 			startAudio();
 			requestAnimationFrame(tick);
 		}
 	} else {
+		gameState.playing = false;
 		if (gameState.startTime) {
 			gameState.elapsedBase += (gameState.lastTs - gameState.startTime) * gameState.speed;
 		}

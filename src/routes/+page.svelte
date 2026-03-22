@@ -5,19 +5,21 @@
 	import Hud from '$lib/components/Hud.svelte';
 	import Timeline from '$lib/components/Timeline.svelte';
 	import {
-		fullReset,
 		gameState,
 		getProgress,
 		handleKeyDown,
 		handleKeyUp,
 		handleSongSelect,
 		handleSpeedChange,
+		restartGame,
 		seekPercentage,
 		togglePlay
 	} from '$lib/game.svelte';
 	import { onMount } from 'svelte';
 
 	const PX_PER_MM = 1.782;
+
+	let showTopBars = $state(true);
 
 	let fallZoneEl = $state<HTMLElement>();
 
@@ -75,32 +77,55 @@
                      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(0,245,255,0.03) 40px);"
 	></div>
 
-	<Header />
+	<button
+		class="absolute top-4 right-4 z-50 flex h-10 w-10 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400 backdrop-blur transition-all hover:bg-cyan-500/40"
+		onclick={() => (showTopBars = !showTopBars)}
+		title={showTopBars ? 'Ocultar opções' : 'Mostrar opções'}
+	>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			class="h-5 w-5"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke="currentColor"
+		>
+			{#if showTopBars}
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+			{:else}
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+			{/if}
+		</svg>
+	</button>
 
-	<Controls
-		playing={gameState.playing}
-		hasSong={!!gameState.currentSongInfo}
-		ontogglePlay={togglePlay}
-		onfullReset={fullReset}
-		onsongSelect={handleSongSelect}
-	/>
+	{#if showTopBars}
+		<Header />
 
-	<Hud
-		score={gameState.score}
-		speed={gameState.speed}
-		bind:keyCount={gameState.keyCount}
-		bind:keyWidthMM={gameState.keyWidthMM}
-		loop={gameState.loop}
-		isKeyboardCompact={gameState.isKeyboardCompact}
-		soundMode={gameState.soundMode}
-		onspeedChange={handleSpeedChange}
-		ontoggleLoop={() => (gameState.loop = !gameState.loop)}
-		ontoggleKeyboardCompact={() => (gameState.isKeyboardCompact = !gameState.isKeyboardCompact)}
-		ontoggleSoundMode={() =>
-			(gameState.soundMode = gameState.soundMode === 'music' ? 'player' : 'music')}
-	/>
+		<Controls
+			playing={gameState.playing}
+			hasSong={!!gameState.currentSongInfo}
+			ontogglePlay={togglePlay}
+			onfullReset={restartGame}
+			onsongSelect={handleSongSelect}
+		/>
 
-	<Timeline progress={getProgress()} elapsedBase={gameState.elapsedBase} onseek={seek} />
+		<Hud
+			score={gameState.score}
+			speed={gameState.speed}
+			bind:keyCount={gameState.keyCount}
+			bind:keyWidthMM={gameState.keyWidthMM}
+			bind:noteColor={gameState.noteColor}
+			loop={gameState.loop}
+			isKeyboardCompact={gameState.isKeyboardCompact}
+			soundMode={gameState.soundMode}
+			onspeedChange={handleSpeedChange}
+			ontoggleLoop={() => (gameState.loop = !gameState.loop)}
+			ontoggleKeyboardCompact={() => (gameState.isKeyboardCompact = !gameState.isKeyboardCompact)}
+			ontoggleSoundMode={() =>
+				(gameState.soundMode = gameState.soundMode === 'music' ? 'player' : 'music')}
+		/>
+
+		<Timeline progress={getProgress()} elapsedBase={gameState.elapsedBase} onseek={seek} />
+	{/if}
 
 	<GameArea
 		{pianoLayout}
@@ -110,6 +135,19 @@
 		onkeyDown={handleKeyDown}
 		onkeyUp={handleKeyUp}
 	/>
+
+	{#if gameState.countdown !== null}
+		<div
+			class="pointer-events-none absolute inset-0 z-50 flex items-center justify-center bg-[#080c14]/50 backdrop-blur-sm"
+		>
+			<span
+				class="font-['Orbitron'] text-[15rem] font-bold text-cyan-400 drop-shadow-[0_0_40px_rgba(0,245,255,0.8)]"
+				style="animation: pulse 1s infinite alternate;"
+			>
+				{gameState.countdown}
+			</span>
+		</div>
+	{/if}
 </div>
 
 <style>
