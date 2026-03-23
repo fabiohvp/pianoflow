@@ -1,0 +1,478 @@
+{
+  "jsonPath": "Unknown/Unknown/David Montgomery/symphonic-dances-from-west-side-storycha-cha-maria-andantino-con-grazia.json",
+  "path": "Unknown\\Unknown\\David Montgomery\\Symphonic Dances from West Side StoryCha-cha (Maria) Andantino con grazia.mid",
+  "name": "Symphonic Dances from West Side StoryCha-cha (Maria) Andantino con grazia",
+  "difficulty": "Advanced",
+  "bpm": 100,
+  "notes": [
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 42600,
+      "d": 600,
+      "v": 62
+    },
+    {
+      "midi": 81,
+      "hit": false,
+      "t": 42600,
+      "d": 600,
+      "v": 62
+    },
+    {
+      "midi": 36,
+      "hit": false,
+      "t": 43200,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 43200,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 43200,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 43200,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 43500,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 43500,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 43500,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 43500,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 44100,
+      "d": 300,
+      "v": 86
+    },
+    {
+      "midi": 81,
+      "hit": false,
+      "t": 44100,
+      "d": 300,
+      "v": 86
+    },
+    {
+      "midi": 36,
+      "hit": false,
+      "t": 44400,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 44400,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 44400,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 44400,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 44700,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 44700,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 44700,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 44700,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 45300,
+      "d": 300,
+      "v": 86
+    },
+    {
+      "midi": 81,
+      "hit": false,
+      "t": 45300,
+      "d": 300,
+      "v": 86
+    },
+    {
+      "midi": 36,
+      "hit": false,
+      "t": 45600,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 45600,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 45600,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 45600,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 45900,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 45900,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 45900,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 45900,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 46200,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 81,
+      "hit": false,
+      "t": 46200,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 36,
+      "hit": false,
+      "t": 46500,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 46500,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 46500,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 46500,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 46800,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 46800,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 46800,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 46800,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 47100,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 47100,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 36,
+      "hit": false,
+      "t": 47400,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 47400,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 47400,
+      "d": 300,
+      "v": 103
+    },
+    {
+      "midi": 81,
+      "hit": false,
+      "t": 47400,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 47700,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 47700,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 47700,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 47700,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 48000,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 48000,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 47,
+      "hit": false,
+      "t": 48300,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 48300,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 48300,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 35,
+      "hit": false,
+      "t": 48300,
+      "d": 300,
+      "v": 104
+    },
+    {
+      "midi": 54,
+      "hit": false,
+      "t": 48600,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 48600,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 48825,
+      "d": 150,
+      "v": 120
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 48900,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 48900,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 47,
+      "hit": false,
+      "t": 49200,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 49200,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 49200,
+      "d": 225,
+      "v": 86
+    },
+    {
+      "midi": 35,
+      "hit": false,
+      "t": 49200,
+      "d": 300,
+      "v": 104
+    },
+    {
+      "midi": 54,
+      "hit": false,
+      "t": 49500,
+      "d": 225,
+      "v": 104
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 49500,
+      "d": 225,
+      "v": 104
+    }
+  ]
+}

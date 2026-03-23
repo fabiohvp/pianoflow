@@ -1,0 +1,65 @@
+{
+  "jsonPath": "Pop/Classic Italian Pop/Antonello Venditti/alta-marea.json",
+  "path": "Pop\\Classic Italian Pop\\Antonello Venditti\\Alta Marea.mid",
+  "name": "Alta Marea",
+  "difficulty": "Intermediate",
+  "bpm": 70.00007000007,
+  "notes": [
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 21406.238583333336,
+      "d": 3839.2836666666662,
+      "v": 82
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 21406.238583333336,
+      "d": 8582.584708333332,
+      "v": 64
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 21406.238583333336,
+      "d": 8593.745416666665,
+      "v": 77
+    },
+    {
+      "midi": 81,
+      "hit": false,
+      "t": 21417.39929166667,
+      "d": 3716.515875000001,
+      "v": 80
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 21417.39929166667,
+      "d": 8549.102583333333,
+      "v": 78
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 25212.040125000003,
+      "d": 4743.301041666666,
+      "v": 80
+    },
+    {
+      "midi": 83,
+      "hit": false,
+      "t": 25212.040125000003,
+      "d": 4743.301041666666,
+      "v": 78
+    },
+    {
+      "midi": 86,
+      "hit": false,
+      "t": 28370.520583333335,
+      "d": 2098.2131666666646,
+      "v": 70
+    }
+  ]
+}

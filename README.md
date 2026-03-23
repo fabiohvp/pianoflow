@@ -6,7 +6,7 @@ A browser-based rhythm piano game inspired by Guitar Hero and VRTuos, built for 
 
 ## Adding Songs
 
-Add .mid or .midi files to the `static/musics/` directory then run `npm run create-db`. This will generate necessary JSON files in `src/lib/database/`.
+Add .mid or .midi files to the `static/musics/` directory then run `npm run create-db`. This will generate necessary JSON files in `static/database/`.
 
 - Recommended repository with thousands of musics: 
   - https://github.com/lucasnfe/adl-piano-midi (general)
@@ -16,7 +16,7 @@ Add .mid or .midi files to the `static/musics/` directory then run `npm run crea
 
 Execute `npm run dev -- --open` in the terminal and wait for browser to open and load.
 
-- Suggestion: use it with a screen bigger than your piano and try to position the screen inclined above the piano keyboard matching the keys on the screen with the piano keys (adjust keys amount and width as necessary). If you want to use with your TV you can use Port Forwarding and open in the browser.
+- Suggestion: use it with a projector on top of the piano or with a screen bigger than your piano and try to position the screen inclined above the piano keyboard matching the keys on the screen with the piano keys (adjust keys amount and width as necessary). If you want to use with your TV you can use Port Forwarding and open in the browser or just mirror your screen.
 
 ---
 

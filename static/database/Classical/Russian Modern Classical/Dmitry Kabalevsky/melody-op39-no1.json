@@ -1,0 +1,317 @@
+{
+  "jsonPath": "Classical/Russian Modern Classical/Dmitry Kabalevsky/melody-op39-no1.json",
+  "path": "Classical\\Russian Modern Classical\\Dmitry Kabalevsky\\Melody Op39, No1.mid",
+  "name": "Melody Op39, No1",
+  "difficulty": "Intermediate",
+  "bpm": 100,
+  "notes": [
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 0,
+      "d": 600,
+      "v": 73
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 0,
+      "d": 2400,
+      "v": 70
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 0,
+      "d": 2400,
+      "v": 70
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 600,
+      "d": 600,
+      "v": 72
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 1200,
+      "d": 600,
+      "v": 78
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 1800,
+      "d": 600,
+      "v": 62
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 2400,
+      "d": 600,
+      "v": 78
+    },
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 2400,
+      "d": 2400,
+      "v": 79
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 2400,
+      "d": 2400,
+      "v": 79
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 3000,
+      "d": 600,
+      "v": 70
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 3600,
+      "d": 1200,
+      "v": 81
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 4800,
+      "d": 600,
+      "v": 83
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 4800,
+      "d": 2400,
+      "v": 73
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 4800,
+      "d": 2400,
+      "v": 73
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 5400,
+      "d": 600,
+      "v": 68
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 6000,
+      "d": 600,
+      "v": 82
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 6600,
+      "d": 600,
+      "v": 69
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 7200,
+      "d": 1200,
+      "v": 77
+    },
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 7200,
+      "d": 2400,
+      "v": 84
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 7200,
+      "d": 2400,
+      "v": 84
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 8400,
+      "d": 1200,
+      "v": 81
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 9600,
+      "d": 600,
+      "v": 78
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 9600,
+      "d": 2400,
+      "v": 70
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 9600,
+      "d": 2400,
+      "v": 70
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 10200,
+      "d": 600,
+      "v": 72
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 10800,
+      "d": 600,
+      "v": 81
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 11400,
+      "d": 600,
+      "v": 66
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 12000,
+      "d": 600,
+      "v": 76
+    },
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 12000,
+      "d": 2400,
+      "v": 81
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 12000,
+      "d": 2400,
+      "v": 81
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 12600,
+      "d": 600,
+      "v": 75
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 13200,
+      "d": 1200,
+      "v": 82
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 14400,
+      "d": 600,
+      "v": 85
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 14400,
+      "d": 2400,
+      "v": 79
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 14400,
+      "d": 2400,
+      "v": 79
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 15000,
+      "d": 600,
+      "v": 69
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 15600,
+      "d": 600,
+      "v": 74
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 16200,
+      "d": 600,
+      "v": 72
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 16800,
+      "d": 1200,
+      "v": 67
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 16800,
+      "d": 1200,
+      "v": 66
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 16800,
+      "d": 1200,
+      "v": 66
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 18000,
+      "d": 1200,
+      "v": 71
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 18000,
+      "d": 1200,
+      "v": 77
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 18000,
+      "d": 1200,
+      "v": 77
+    }
+  ]
+}

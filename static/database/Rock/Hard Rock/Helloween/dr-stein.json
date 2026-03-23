@@ -1,0 +1,44 @@
+{
+  "jsonPath": "Rock/Hard Rock/Helloween/dr-stein.json",
+  "path": "Rock\\Hard Rock\\Helloween\\Dr Stein.mid",
+  "name": "Dr Stein",
+  "difficulty": "Intermediate",
+  "bpm": 150,
+  "notes": [
+    {
+      "midi": 40,
+      "hit": false,
+      "t": 265600,
+      "d": 3200,
+      "v": 95
+    },
+    {
+      "midi": 47,
+      "hit": false,
+      "t": 265600,
+      "d": 3200,
+      "v": 95
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 265600,
+      "d": 3200,
+      "v": 127
+    },
+    {
+      "midi": 56,
+      "hit": false,
+      "t": 265600,
+      "d": 3200,
+      "v": 127
+    },
+    {
+      "midi": 59,
+      "hit": false,
+      "t": 265600,
+      "d": 3200,
+      "v": 127
+    }
+  ]
+}

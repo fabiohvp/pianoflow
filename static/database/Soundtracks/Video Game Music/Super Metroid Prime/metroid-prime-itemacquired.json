@@ -1,0 +1,324 @@
+{
+  "jsonPath": "Soundtracks/Video Game Music/Super Metroid Prime/metroid-prime-itemacquired.json",
+  "path": "Soundtracks\\Video Game Music\\Super Metroid Prime\\Metroid_Prime_ItemAcquired.mid",
+  "name": "Metroid_Prime_ItemAcquired",
+  "difficulty": "Advanced",
+  "bpm": 100,
+  "notes": [
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 0,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 46,
+      "hit": false,
+      "t": 0,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 34,
+      "hit": false,
+      "t": 0,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 53,
+      "hit": false,
+      "t": 0,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 58,
+      "hit": false,
+      "t": 0,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 0,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 0,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 0,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 0,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 300,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 600,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 900,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 1200,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 45,
+      "hit": false,
+      "t": 1200,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 33,
+      "hit": false,
+      "t": 1200,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 1200,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 1200,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 1200,
+      "d": 1200,
+      "v": 64
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 1200,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 1200,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 1200,
+      "d": 1200,
+      "v": 102
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 1500,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 1800,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 2100,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 77,
+      "hit": false,
+      "t": 2400,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 43,
+      "hit": false,
+      "t": 2400,
+      "d": 1500,
+      "v": 102
+    },
+    {
+      "midi": 31,
+      "hit": false,
+      "t": 2400,
+      "d": 1500,
+      "v": 102
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 2400,
+      "d": 1500,
+      "v": 102
+    },
+    {
+      "midi": 58,
+      "hit": false,
+      "t": 2400,
+      "d": 1500,
+      "v": 102
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 2400,
+      "d": 1500,
+      "v": 102
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 2400,
+      "d": 1500,
+      "v": 102
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 2400,
+      "d": 1500,
+      "v": 102
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 2700,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 3000,
+      "d": 300,
+      "v": 102
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 3300,
+      "d": 600,
+      "v": 102
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 3900,
+      "d": 1800,
+      "v": 102
+    },
+    {
+      "midi": 26,
+      "hit": false,
+      "t": 3900,
+      "d": 1800,
+      "v": 102
+    },
+    {
+      "midi": 38,
+      "hit": false,
+      "t": 3900,
+      "d": 1800,
+      "v": 102
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 3900,
+      "d": 1800,
+      "v": 102
+    },
+    {
+      "midi": 57,
+      "hit": false,
+      "t": 3900,
+      "d": 1800,
+      "v": 102
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 3900,
+      "d": 1800,
+      "v": 102
+    },
+    {
+      "midi": 66,
+      "hit": false,
+      "t": 3900,
+      "d": 1800,
+      "v": 102
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 3900,
+      "d": 1800,
+      "v": 102
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 3900,
+      "d": 1800,
+      "v": 102
+    },
+    {
+      "midi": 81,
+      "hit": false,
+      "t": 3900,
+      "d": 1800,
+      "v": 102
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "jsonPath": "Unknown/Unknown/George Acosta feat Tiff Lacey/i-know.json",
+  "path": "Unknown\\Unknown\\George Acosta feat Tiff Lacey\\I Know.mid",
+  "name": "I Know",
+  "difficulty": "Intermediate",
+  "bpm": 120,
+  "notes": [
+    {
+      "midi": 50,
+      "hit": false,
+      "t": 0,
+      "d": 3000,
+      "v": 120
+    },
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 0,
+      "d": 3000,
+      "v": 120
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 3000,
+      "d": 1000,
+      "v": 120
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 3000,
+      "d": 1000,
+      "v": 120
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 4000,
+      "d": 3000,
+      "v": 120
+    },
+    {
+      "midi": 43,
+      "hit": false,
+      "t": 4000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 7000,
+      "d": 1000,
+      "v": 120
+    },
+    {
+      "midi": 46,
+      "hit": false,
+      "t": 8000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 8000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 12000,
+      "d": 3000,
+      "v": 120
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 12000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 15000,
+      "d": 1000,
+      "v": 120
+    },
+    {
+      "midi": 50,
+      "hit": false,
+      "t": 16000,
+      "d": 3000,
+      "v": 120
+    },
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 16000,
+      "d": 3000,
+      "v": 120
+    },
+    {
+      "midi": 77,
+      "hit": false,
+      "t": 16000,
+      "d": 3000,
+      "v": 120
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 19000,
+      "d": 1000,
+      "v": 120
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 19000,
+      "d": 1000,
+      "v": 120
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 19000,
+      "d": 1000,
+      "v": 120
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 20000,
+      "d": 3000,
+      "v": 120
+    },
+    {
+      "midi": 43,
+      "hit": false,
+      "t": 20000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 81,
+      "hit": false,
+      "t": 20000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 23000,
+      "d": 1000,
+      "v": 120
+    },
+    {
+      "midi": 46,
+      "hit": false,
+      "t": 24000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 24000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 77,
+      "hit": false,
+      "t": 24000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 28000,
+      "d": 3000,
+      "v": 120
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 28000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 28000,
+      "d": 4000,
+      "v": 120
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 31000,
+      "d": 1000,
+      "v": 120
+    }
+  ]
+}

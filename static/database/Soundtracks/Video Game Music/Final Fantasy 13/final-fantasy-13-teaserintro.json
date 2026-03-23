@@ -1,0 +1,303 @@
+{
+  "jsonPath": "Soundtracks/Video Game Music/Final Fantasy 13/final-fantasy-13-teaserintro.json",
+  "path": "Soundtracks\\Video Game Music\\Final Fantasy 13\\Final_Fantasy_13_TeaserIntro.mid",
+  "name": "Final_Fantasy_13_TeaserIntro",
+  "difficulty": "Intermediate",
+  "bpm": 100,
+  "notes": [
+    {
+      "midi": 63,
+      "hit": false,
+      "t": 2250,
+      "d": 140,
+      "v": 80
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 2300,
+      "d": 90,
+      "v": 80
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 2350,
+      "d": 40,
+      "v": 80
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 2400,
+      "d": 1920,
+      "v": 80
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 2400,
+      "d": 1920,
+      "v": 80
+    },
+    {
+      "midi": 51,
+      "hit": false,
+      "t": 2400,
+      "d": 1920,
+      "v": 80
+    },
+    {
+      "midi": 75,
+      "hit": false,
+      "t": 2400,
+      "d": 1920,
+      "v": 80
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 4800,
+      "d": 960,
+      "v": 80
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 4800,
+      "d": 960,
+      "v": 80
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 4800,
+      "d": 1680,
+      "v": 80
+    },
+    {
+      "midi": 50,
+      "hit": false,
+      "t": 4800,
+      "d": 1920,
+      "v": 80
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 6000,
+      "d": 480,
+      "v": 80
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 6600,
+      "d": 480,
+      "v": 80
+    },
+    {
+      "midi": 63,
+      "hit": false,
+      "t": 7200,
+      "d": 1440,
+      "v": 80
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 7200,
+      "d": 1440,
+      "v": 80
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 7200,
+      "d": 1440,
+      "v": 80
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 7200,
+      "d": 1920,
+      "v": 80
+    },
+    {
+      "midi": 75,
+      "hit": false,
+      "t": 9000,
+      "d": 480,
+      "v": 80
+    },
+    {
+      "midi": 50,
+      "hit": false,
+      "t": 9600,
+      "d": 240,
+      "v": 80
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 9600,
+      "d": 240,
+      "v": 80
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 9600,
+      "d": 1080,
+      "v": 80
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 9600,
+      "d": 1080,
+      "v": 80
+    },
+    {
+      "midi": 51,
+      "hit": false,
+      "t": 9900,
+      "d": 780,
+      "v": 80
+    },
+    {
+      "midi": 75,
+      "hit": false,
+      "t": 9900,
+      "d": 780,
+      "v": 80
+    },
+    {
+      "midi": 46,
+      "hit": false,
+      "t": 11200,
+      "d": 320,
+      "v": 80
+    },
+    {
+      "midi": 77,
+      "hit": false,
+      "t": 11200,
+      "d": 320,
+      "v": 80
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 11200,
+      "d": 320,
+      "v": 80
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 11200,
+      "d": 320,
+      "v": 80
+    },
+    {
+      "midi": 46,
+      "hit": false,
+      "t": 11600,
+      "d": 320,
+      "v": 80
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 11600,
+      "d": 320,
+      "v": 80
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 11600,
+      "d": 320,
+      "v": 80
+    },
+    {
+      "midi": 79,
+      "hit": false,
+      "t": 11600,
+      "d": 320,
+      "v": 80
+    },
+    {
+      "midi": 70,
+      "hit": false,
+      "t": 12000,
+      "d": 1920,
+      "v": 80
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 12000,
+      "d": 1920,
+      "v": 80
+    },
+    {
+      "midi": 75,
+      "hit": false,
+      "t": 12000,
+      "d": 1920,
+      "v": 80
+    },
+    {
+      "midi": 51,
+      "hit": false,
+      "t": 12000,
+      "d": 1920,
+      "v": 80
+    },
+    {
+      "midi": 46,
+      "hit": false,
+      "t": 14400,
+      "d": 1920,
+      "v": 72
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 16800,
+      "d": 1920,
+      "v": 58
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 16800,
+      "d": 1920,
+      "v": 58
+    },
+    {
+      "midi": 75,
+      "hit": false,
+      "t": 16800,
+      "d": 1920,
+      "v": 58
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 16800,
+      "d": 1920,
+      "v": 58
+    },
+    {
+      "midi": 46,
+      "hit": false,
+      "t": 20400,
+      "d": 960,
+      "v": 124
+    }
+  ]
+}

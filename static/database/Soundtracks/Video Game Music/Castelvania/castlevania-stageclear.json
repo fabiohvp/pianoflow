@@ -1,0 +1,492 @@
+{
+  "jsonPath": "Soundtracks/Video Game Music/Castelvania/castlevania-stageclear.json",
+  "path": "Soundtracks\\Video Game Music\\Castelvania\\Castlevania_StageClear.mid",
+  "name": "Castlevania_StageClear",
+  "difficulty": "Advanced",
+  "bpm": 100,
+  "notes": [
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 0,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 0,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 0,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 57,
+      "hit": false,
+      "t": 0,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 0,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 45,
+      "hit": false,
+      "t": 0,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 450,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 450,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 450,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 750,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 750,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 750,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 1050,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 1050,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 1050,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 1200,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 1200,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 1200,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 1200,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 50,
+      "hit": false,
+      "t": 1200,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 43,
+      "hit": false,
+      "t": 1200,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 1350,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 1350,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 1350,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 1650,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 1650,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 1650,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 1950,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 1950,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 1950,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 2250,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 2250,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 2250,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 2400,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 2400,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 2400,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 53,
+      "hit": false,
+      "t": 2400,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 2400,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 41,
+      "hit": false,
+      "t": 2400,
+      "d": 225,
+      "v": 95
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 2550,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 2550,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 2550,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 2700,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 2700,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 2700,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 2850,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 2850,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 2850,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 2850,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 50,
+      "hit": false,
+      "t": 2850,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 43,
+      "hit": false,
+      "t": 2850,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 3000,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 3000,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 3000,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 3000,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 3000,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 3000,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 3150,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 3150,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 3150,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 3150,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 50,
+      "hit": false,
+      "t": 3150,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 43,
+      "hit": false,
+      "t": 3150,
+      "d": 150,
+      "v": 95
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 3300,
+      "d": 1500,
+      "v": 95
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 3300,
+      "d": 1500,
+      "v": 95
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 3300,
+      "d": 1500,
+      "v": 95
+    },
+    {
+      "midi": 57,
+      "hit": false,
+      "t": 3300,
+      "d": 1500,
+      "v": 95
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 3300,
+      "d": 1500,
+      "v": 95
+    },
+    {
+      "midi": 45,
+      "hit": false,
+      "t": 3300,
+      "d": 1500,
+      "v": 95
+    }
+  ]
+}

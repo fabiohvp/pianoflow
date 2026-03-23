@@ -1,0 +1,443 @@
+{
+  "jsonPath": "Classical/Russian Modern Classical/Dmitry Kabalevsky/cradle-song-op39-no4.json",
+  "path": "Classical\\Russian Modern Classical\\Dmitry Kabalevsky\\Cradle Song Op39, No4.mid",
+  "name": "Cradle Song Op39, No4",
+  "difficulty": "Advanced",
+  "bpm": 100,
+  "notes": [
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 0,
+      "d": 300,
+      "v": 71
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 0,
+      "d": 300,
+      "v": 67
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 300,
+      "d": 300,
+      "v": 78
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 300,
+      "d": 300,
+      "v": 76
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 600,
+      "d": 300,
+      "v": 94
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 600,
+      "d": 300,
+      "v": 96
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 900,
+      "d": 300,
+      "v": 72
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 900,
+      "d": 300,
+      "v": 74
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 1200,
+      "d": 300,
+      "v": 58
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 1200,
+      "d": 300,
+      "v": 71
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 1500,
+      "d": 300,
+      "v": 76
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 1500,
+      "d": 300,
+      "v": 77
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 1800,
+      "d": 300,
+      "v": 89
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 1800,
+      "d": 300,
+      "v": 89
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 2100,
+      "d": 300,
+      "v": 69
+    },
+    {
+      "midi": 59,
+      "hit": false,
+      "t": 2100,
+      "d": 300,
+      "v": 72
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 2400,
+      "d": 300,
+      "v": 63
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 2400,
+      "d": 300,
+      "v": 73
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 2700,
+      "d": 300,
+      "v": 81
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 2700,
+      "d": 300,
+      "v": 79
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 3000,
+      "d": 300,
+      "v": 86
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 3000,
+      "d": 300,
+      "v": 87
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 3300,
+      "d": 300,
+      "v": 73
+    },
+    {
+      "midi": 57,
+      "hit": false,
+      "t": 3300,
+      "d": 300,
+      "v": 74
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 3600,
+      "d": 300,
+      "v": 81
+    },
+    {
+      "midi": 59,
+      "hit": false,
+      "t": 3600,
+      "d": 300,
+      "v": 84
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 3900,
+      "d": 300,
+      "v": 66
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 3900,
+      "d": 300,
+      "v": 73
+    },
+    {
+      "midi": 66,
+      "hit": false,
+      "t": 4200,
+      "d": 300,
+      "v": 69
+    },
+    {
+      "midi": 54,
+      "hit": false,
+      "t": 4200,
+      "d": 300,
+      "v": 74
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 4500,
+      "d": 300,
+      "v": 85
+    },
+    {
+      "midi": 59,
+      "hit": false,
+      "t": 4500,
+      "d": 300,
+      "v": 85
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 4800,
+      "d": 300,
+      "v": 65
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 4800,
+      "d": 300,
+      "v": 70
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 5100,
+      "d": 300,
+      "v": 82
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 5100,
+      "d": 300,
+      "v": 78
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 5400,
+      "d": 300,
+      "v": 89
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 5400,
+      "d": 300,
+      "v": 90
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 5700,
+      "d": 300,
+      "v": 75
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 5700,
+      "d": 300,
+      "v": 72
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 6000,
+      "d": 300,
+      "v": 61
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 6000,
+      "d": 300,
+      "v": 71
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 6300,
+      "d": 300,
+      "v": 78
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 6300,
+      "d": 300,
+      "v": 75
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 6600,
+      "d": 300,
+      "v": 92
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 6600,
+      "d": 300,
+      "v": 88
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 6900,
+      "d": 300,
+      "v": 71
+    },
+    {
+      "midi": 59,
+      "hit": false,
+      "t": 6900,
+      "d": 300,
+      "v": 78
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 7200,
+      "d": 300,
+      "v": 64
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 7200,
+      "d": 300,
+      "v": 69
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 7500,
+      "d": 300,
+      "v": 81
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 7500,
+      "d": 300,
+      "v": 78
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 7800,
+      "d": 300,
+      "v": 89
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 7800,
+      "d": 300,
+      "v": 91
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 8100,
+      "d": 300,
+      "v": 72
+    },
+    {
+      "midi": 57,
+      "hit": false,
+      "t": 8100,
+      "d": 300,
+      "v": 73
+    },
+    {
+      "midi": 66,
+      "hit": false,
+      "t": 8400,
+      "d": 300,
+      "v": 69
+    },
+    {
+      "midi": 54,
+      "hit": false,
+      "t": 8400,
+      "d": 300,
+      "v": 75
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 8700,
+      "d": 300,
+      "v": 84
+    },
+    {
+      "midi": 59,
+      "hit": false,
+      "t": 8700,
+      "d": 300,
+      "v": 80
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 9000,
+      "d": 600,
+      "v": 66
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 9000,
+      "d": 600,
+      "v": 70
+    }
+  ]
+}

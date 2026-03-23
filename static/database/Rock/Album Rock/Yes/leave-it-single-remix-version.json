@@ -1,0 +1,128 @@
+{
+  "jsonPath": "Rock/Album Rock/Yes/leave-it-single-remix-version.json",
+  "path": "Rock\\Album Rock\\Yes\\Leave It (Single Remix Version).mid",
+  "name": "Leave It (Single Remix Version)",
+  "difficulty": "Intermediate",
+  "bpm": 104.99992125005906,
+  "notes": [
+    {
+      "midi": 94,
+      "hit": false,
+      "t": 251137.5,
+      "d": 37.5,
+      "v": 81
+    },
+    {
+      "midi": 93,
+      "hit": false,
+      "t": 251175,
+      "d": 37.5,
+      "v": 83
+    },
+    {
+      "midi": 91,
+      "hit": false,
+      "t": 251212.5,
+      "d": 37.5,
+      "v": 86
+    },
+    {
+      "midi": 88,
+      "hit": false,
+      "t": 251250,
+      "d": 37.5,
+      "v": 88
+    },
+    {
+      "midi": 87,
+      "hit": false,
+      "t": 251287.5,
+      "d": 37.5,
+      "v": 90
+    },
+    {
+      "midi": 86,
+      "hit": false,
+      "t": 251325,
+      "d": 37.5,
+      "v": 92
+    },
+    {
+      "midi": 84,
+      "hit": false,
+      "t": 251362.5,
+      "d": 37.5,
+      "v": 95
+    },
+    {
+      "midi": 81,
+      "hit": false,
+      "t": 251400,
+      "d": 37.5,
+      "v": 98
+    },
+    {
+      "midi": 80,
+      "hit": false,
+      "t": 251437.5,
+      "d": 37.5,
+      "v": 99
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 251475,
+      "d": 37.5,
+      "v": 102
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 251512.5,
+      "d": 37.5,
+      "v": 104
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 251550,
+      "d": 37.5,
+      "v": 107
+    },
+    {
+      "midi": 68,
+      "hit": false,
+      "t": 251587.5,
+      "d": 37.5,
+      "v": 108
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 251625,
+      "d": 37.5,
+      "v": 111
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 251662.5,
+      "d": 37.5,
+      "v": 114
+    },
+    {
+      "midi": 31,
+      "hit": false,
+      "t": 251662.5,
+      "d": 937.5,
+      "v": 114
+    },
+    {
+      "midi": 56,
+      "hit": false,
+      "t": 251700,
+      "d": 37.5,
+      "v": 114
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "jsonPath": "Soundtracks/Video Game Music/Legend of Zelda The Wind Waker/legend-of-zelda-the-the-wind-waker-commandmelody.json",
+  "path": "Soundtracks\\Video Game Music\\Legend of Zelda The Wind Waker\\Legend_of_Zelda_The_The_Wind_Waker_CommandMelody.mid",
+  "name": "Legend_of_Zelda_The_The_Wind_Waker_CommandMelody",
+  "difficulty": "Intermediate",
+  "bpm": 120,
+  "notes": [
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 0,
+      "d": 1000,
+      "v": 127
+    },
+    {
+      "midi": 57,
+      "hit": false,
+      "t": 0,
+      "d": 3000,
+      "v": 127
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 0,
+      "d": 3000,
+      "v": 127
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 1000,
+      "d": 1000,
+      "v": 127
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 2000,
+      "d": 1000,
+      "v": 127
+    },
+    {
+      "midi": 71,
+      "hit": false,
+      "t": 3000,
+      "d": 1000,
+      "v": 127
+    },
+    {
+      "midi": 51,
+      "hit": false,
+      "t": 3000,
+      "d": 1000,
+      "v": 127
+    },
+    {
+      "midi": 59,
+      "hit": false,
+      "t": 3000,
+      "d": 1000,
+      "v": 127
+    }
+  ]
+}

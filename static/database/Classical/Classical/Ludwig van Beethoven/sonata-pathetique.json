@@ -1,0 +1,317 @@
+{
+  "jsonPath": "Classical/Classical/Ludwig van Beethoven/sonata-pathetique.json",
+  "path": "Classical\\Classical\\Ludwig van Beethoven\\Sonata Pathetique.mid",
+  "name": "Sonata Pathetique",
+  "difficulty": "Intermediate",
+  "bpm": 100,
+  "notes": [
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 0,
+      "d": 1200,
+      "v": 100
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 0,
+      "d": 1200,
+      "v": 65
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 1200,
+      "d": 1200,
+      "v": 70
+    },
+    {
+      "midi": 53,
+      "hit": false,
+      "t": 1200,
+      "d": 1200,
+      "v": 74
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 2400,
+      "d": 1800,
+      "v": 88
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 2400,
+      "d": 1200,
+      "v": 74
+    },
+    {
+      "midi": 50,
+      "hit": false,
+      "t": 3600,
+      "d": 1200,
+      "v": 75
+    },
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 4200,
+      "d": 600,
+      "v": 75
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 4800,
+      "d": 600,
+      "v": 71
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 4800,
+      "d": 1200,
+      "v": 76
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 5400,
+      "d": 600,
+      "v": 81
+    },
+    {
+      "midi": 72,
+      "hit": false,
+      "t": 6000,
+      "d": 600,
+      "v": 87
+    },
+    {
+      "midi": 54,
+      "hit": false,
+      "t": 6000,
+      "d": 1200,
+      "v": 82
+    },
+    {
+      "midi": 74,
+      "hit": false,
+      "t": 6600,
+      "d": 600,
+      "v": 82
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 7200,
+      "d": 1800,
+      "v": 65
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 7200,
+      "d": 1200,
+      "v": 80
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 8400,
+      "d": 1200,
+      "v": 78
+    },
+    {
+      "midi": 68,
+      "hit": false,
+      "t": 9000,
+      "d": 600,
+      "v": 83
+    },
+    {
+      "midi": 69,
+      "hit": false,
+      "t": 9600,
+      "d": 1200,
+      "v": 78
+    },
+    {
+      "midi": 53,
+      "hit": false,
+      "t": 9600,
+      "d": 1200,
+      "v": 75
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 9600,
+      "d": 1200,
+      "v": 75
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 10800,
+      "d": 600,
+      "v": 61
+    },
+    {
+      "midi": 53,
+      "hit": false,
+      "t": 10800,
+      "d": 1200,
+      "v": 76
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 10800,
+      "d": 1200,
+      "v": 76
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 11400,
+      "d": 300,
+      "v": 79
+    },
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 11700,
+      "d": 300,
+      "v": 80
+    },
+    {
+      "midi": 67,
+      "hit": false,
+      "t": 12000,
+      "d": 1200,
+      "v": 74
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 12000,
+      "d": 1200,
+      "v": 75
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 12000,
+      "d": 1200,
+      "v": 75
+    },
+    {
+      "midi": 61,
+      "hit": false,
+      "t": 13200,
+      "d": 1200,
+      "v": 66
+    },
+    {
+      "midi": 57,
+      "hit": false,
+      "t": 13200,
+      "d": 1200,
+      "v": 75
+    },
+    {
+      "midi": 65,
+      "hit": false,
+      "t": 14400,
+      "d": 1200,
+      "v": 83
+    },
+    {
+      "midi": 50,
+      "hit": false,
+      "t": 14400,
+      "d": 1200,
+      "v": 70
+    },
+    {
+      "midi": 64,
+      "hit": false,
+      "t": 15600,
+      "d": 300,
+      "v": 70
+    },
+    {
+      "midi": 53,
+      "hit": false,
+      "t": 15600,
+      "d": 1200,
+      "v": 82
+    },
+    {
+      "midi": 55,
+      "hit": false,
+      "t": 15600,
+      "d": 1200,
+      "v": 82
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 15900,
+      "d": 300,
+      "v": 66
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 16200,
+      "d": 300,
+      "v": 71
+    },
+    {
+      "midi": 59,
+      "hit": false,
+      "t": 16500,
+      "d": 300,
+      "v": 76
+    },
+    {
+      "midi": 62,
+      "hit": false,
+      "t": 16800,
+      "d": 1200,
+      "v": 83
+    },
+    {
+      "midi": 48,
+      "hit": false,
+      "t": 16800,
+      "d": 1200,
+      "v": 68
+    },
+    {
+      "midi": 53,
+      "hit": false,
+      "t": 16800,
+      "d": 1200,
+      "v": 77
+    },
+    {
+      "midi": 60,
+      "hit": false,
+      "t": 18000,
+      "d": 600,
+      "v": 73
+    },
+    {
+      "midi": 52,
+      "hit": false,
+      "t": 18000,
+      "d": 600,
+      "v": 73
+    }
+  ]
+}

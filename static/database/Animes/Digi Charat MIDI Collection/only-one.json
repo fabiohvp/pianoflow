@@ -1,0 +1,100 @@
+{
+  "jsonPath": "Animes/Digi Charat MIDI Collection/only-one.json",
+  "path": "Animes\\Digi Charat MIDI Collection\\Only One.mid",
+  "name": "Only One",
+  "difficulty": "Beginner",
+  "bpm": 160,
+  "notes": [
+    {
+      "midi": 73,
+      "hit": false,
+      "t": 0,
+      "d": 187.5,
+      "v": 100
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 187.5,
+      "d": 187.5,
+      "v": 100
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 375,
+      "d": 375,
+      "v": 100
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 750,
+      "d": 187.5,
+      "v": 100
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 937.5,
+      "d": 375,
+      "v": 100
+    },
+    {
+      "midi": 81,
+      "hit": false,
+      "t": 1312.5,
+      "d": 375,
+      "v": 100
+    },
+    {
+      "midi": 85,
+      "hit": false,
+      "t": 1687.5,
+      "d": 937.5,
+      "v": 100
+    },
+    {
+      "midi": 76,
+      "hit": false,
+      "t": 3000,
+      "d": 375,
+      "v": 100
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 3375,
+      "d": 375,
+      "v": 100
+    },
+    {
+      "midi": 78,
+      "hit": false,
+      "t": 3750,
+      "d": 187.5,
+      "v": 100
+    },
+    {
+      "midi": 85,
+      "hit": false,
+      "t": 3937.5,
+      "d": 375,
+      "v": 100
+    },
+    {
+      "midi": 83,
+      "hit": false,
+      "t": 4312.5,
+      "d": 375,
+      "v": 100
+    },
+    {
+      "midi": 85,
+      "hit": false,
+      "t": 4687.5,
+      "d": 937.5,
+      "v": 100
+    }
+  ]
+}
