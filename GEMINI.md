@@ -1,6 +1,6 @@
-# PianoFlow - Project Overview
+# Groove Hero - Project Overview
 
-**PianoFlow** is a SvelteKit-based web application designed for playing and interacting with MIDI files. It leverages the latest Svelte 5 features (such as Runes for reactivity) to provide a rich, interactive musical experience.
+**Groove Hero** is a SvelteKit-based web application designed for playing and interacting with MIDI files. It leverages the latest Svelte 5 features (such as Runes for reactivity) to provide a rich, interactive musical experience.
 
 ## Key Technologies
 *   **Framework:** Svelte 5 & SvelteKit

@@ -1,4 +1,4 @@
-# 🎹 PianoFlow
+# 🎹 Groove Hero
 
 ## This project was my way of testing GEMINI AI capabilities. This was done almost all vibe coding.
 
@@ -28,7 +28,7 @@ Works in any browser with Web Audio API and CSS `transform` support — Chrome, 
 
 ## Features
 
-1. **User-friendly interface**: Designed for beginners, PianoFlow includes intuitive controls and tutorials that guide players on how to play the game effectively.
+1. **User-friendly interface**: Designed for beginners, Groove Hero includes intuitive controls and tutorials that guide players on how to play the game effectively.
 2. **Customizable difficulty levels**: Players can adjust the speed of block falling to match their skill level.
 3. **Customizable piano**: Players can adjust the number of keys and the width of the keys.
 4. **Loop toggle**: Players can loop the song to play it again after it ends.
