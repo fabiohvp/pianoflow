@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { gameState } from '$lib/games/piano/game.svelte';
+	import { themes } from '$lib/themes';
+	import type { KeyLayout } from '$lib/types';
 	import Piano from './Piano.svelte';
 
 	let {
@@ -12,38 +14,6 @@
 	} = $props();
 
 	const BASE_SPEED = 0.22;
-
-	const themes = {
-		classic: {
-			white: {
-				bg: 'linear-gradient(to bottom, rgb(130 225 159), rgb(130 185 10))',
-				shadow: '#00f5ff88'
-			},
-			black: { bg: 'linear-gradient(to bottom, #ff2d78bb, #ff2d78)', shadow: '#ff2d7888' }
-		},
-		ocean: {
-			white: { bg: 'linear-gradient(to bottom, #67e8f9, #06b6d4)', shadow: '#06b6d488' },
-			black: { bg: 'linear-gradient(to bottom, #3b82f6, #1d4ed8)', shadow: '#1d4ed888' }
-		},
-		sunset: {
-			white: { bg: 'linear-gradient(to bottom, #fde047, #f59e0b)', shadow: '#f59e0b88' },
-			black: { bg: 'linear-gradient(to bottom, #c084fc, #9333ea)', shadow: '#9333ea88' }
-		},
-		synthwave: {
-			white: { bg: 'linear-gradient(to bottom, #f9a8d4, #db2777)', shadow: '#db277788' },
-			black: { bg: 'linear-gradient(to bottom, #818cf8, #4f46e5)', shadow: '#4f46e588' }
-		},
-		monochrome: {
-			white: { bg: 'linear-gradient(to bottom, #d1d5db, #6b7280)', shadow: '#6b728088' },
-			black: { bg: 'linear-gradient(to bottom, #4b5563, #1f2937)', shadow: '#1f293788' }
-		},
-		forest: {
-			white: { bg: 'linear-gradient(to bottom, #4ade80, #16a34a)', shadow: '#16a34a88' },
-			black: { bg: 'linear-gradient(to bottom, #166534, #14532d)', shadow: '#14532d88' }
-		}
-	};
-
-	import type { KeyLayout } from '$lib/types';
 
 	// Pre-index keys by MIDI for O(1) lookup
 	const keyMap = $derived(
@@ -59,7 +29,7 @@
 
 	const pxPerMs = $derived(BASE_SPEED * gameState.speed);
 	const currentTheme = $derived(
-		themes[gameState.noteColor as keyof typeof themes] || themes.classic
+		themes[gameState.noteColor] || themes.classic
 	);
 
 	// Derived: only the notes currently visible in the fall zone (Optimized O(log N + K))
@@ -143,16 +113,14 @@
 				ctx.shadowColor = '#facc1588';
 				ctx.strokeStyle = '#eab308';
 			} else if (key.type === 'black') {
-				// Rough approximation of the CSS gradient: #ff2d78bb, #ff2d78
-				gradient.addColorStop(0, '#ff2d78bb');
-				gradient.addColorStop(1, '#ff2d78');
-				ctx.shadowColor = '#ff2d7888';
+				gradient.addColorStop(0, currentTheme.black.start);
+				gradient.addColorStop(1, currentTheme.black.end);
+				ctx.shadowColor = currentTheme.black.shadow;
 				ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
 			} else {
-				// Rough approximation of the CSS gradient: rgb(130 225 159), rgb(130 185 10)
-				gradient.addColorStop(0, '#82e19f');
-				gradient.addColorStop(1, '#82b90a');
-				ctx.shadowColor = '#00f5ff88';
+				gradient.addColorStop(0, currentTheme.white.start);
+				gradient.addColorStop(1, currentTheme.white.end);
+				ctx.shadowColor = currentTheme.white.shadow;
 				ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
 			}
 
@@ -192,8 +160,8 @@
 			bind:this={fallZoneEl}
 			class="absolute inset-x-0 top-0 overflow-hidden {gameState.backgroundMode === 'light'
 				? 'bg-slate-100'
-				: 'bg-transparent'} bg-gradient-to-b from-transparent to-cyan-500/5 transition-colors duration-500"
-			style="bottom: {pianoLayout.whiteH}px"
+				: 'bg-transparent'} transition-colors duration-500"
+			style="bottom: {pianoLayout.whiteH}px; background-image: linear-gradient(to bottom, transparent, {currentTheme.accent}11)"
 		>
 			<!-- Vertical Guides -->
 			{#each pianoLayout.keys.filter((k: { type: string }) => k.type === 'white') as key (key)}
@@ -210,7 +178,8 @@
 
 			<!-- Hit Line -->
 			<div
-				class="absolute bottom-0 h-[3px] w-full bg-gradient-to-r from-transparent via-cyan-400 to-transparent shadow-[0_0_15px_#00f5ff]"
+				class="absolute bottom-0 h-[3px] w-full"
+				style="background-image: linear-gradient(to right, transparent, {currentTheme.accent}, transparent); box-shadow: 0 0 15px {currentTheme.accent};"
 			></div>
 		</div>
 

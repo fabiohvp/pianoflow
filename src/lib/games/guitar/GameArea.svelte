@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { gameState, getGuitarPosition } from '$lib/games/guitar/game.svelte';
+	import { themes } from '$lib/themes';
 	import Guitar from './Guitar.svelte';
 
 	let { lastTs, fallZoneHeight, fallZoneEl = $bindable(), onkeyPress } = $props();
@@ -94,38 +95,9 @@
 	function getFretLeftPercentage(fretIndex: number) {
 		return (fretIndex / fretsCount) * 100;
 	}
-
-	const themes = {
-		classic: {
-			white: {
-				bg: 'linear-gradient(to bottom, rgb(130 225 159), rgb(130 185 10))',
-				shadow: '#00f5ff88'
-			},
-			black: { bg: 'linear-gradient(to bottom, #ff2d78bb, #ff2d78)', shadow: '#ff2d7888' }
-		},
-		ocean: {
-			white: { bg: 'linear-gradient(to bottom, #67e8f9, #06b6d4)', shadow: '#06b6d488' },
-			black: { bg: 'linear-gradient(to bottom, #3b82f6, #1d4ed8)', shadow: '#1d4ed888' }
-		},
-		sunset: {
-			white: { bg: 'linear-gradient(to bottom, #fde047, #f59e0b)', shadow: '#f59e0b88' },
-			black: { bg: 'linear-gradient(to bottom, #c084fc, #9333ea)', shadow: '#9333ea88' }
-		},
-		synthwave: {
-			white: { bg: 'linear-gradient(to bottom, #f9a8d4, #db2777)', shadow: '#db277788' },
-			black: { bg: 'linear-gradient(to bottom, #818cf8, #4f46e5)', shadow: '#4f46e588' }
-		},
-		monochrome: {
-			white: { bg: 'linear-gradient(to bottom, #d1d5db, #6b7280)', shadow: '#6b728088' },
-			black: { bg: 'linear-gradient(to bottom, #4b5563, #1f2937)', shadow: '#1f293788' }
-		},
-		forest: {
-			white: { bg: 'linear-gradient(to bottom, #4ade80, #16a34a)', shadow: '#16a34a88' },
-			black: { bg: 'linear-gradient(to bottom, #166534, #14532d)', shadow: '#14532d88' }
-		}
-	};
-
 	let canvasEl = $state<HTMLCanvasElement>();
+
+	const currentTheme = $derived(themes[gameState.noteColor] || themes.classic);
 
 	function draw() {
 		if (!canvasEl || !fallZoneEl) return;
@@ -182,7 +154,6 @@
 		const notesAreaX = gameState.isLeftHanded ? 0 : strumWidth;
 		const notesAreaWidth = (containerWidth - 64) * dpr;
 
-		// To optimize performance: Draw in batches or simplify rendering
 		visibleNotes.forEach((note) => {
 			const pos = note.guitarPos || getGuitarPosition(note.midi, fretsCount);
 			const blockH = Math.max(12, note.d * pxPerMs);
@@ -215,12 +186,12 @@
 				ctx.strokeStyle = '#eab308';
 				ctx.globalAlpha = 0.5;
 			} else {
-				// Classic theme gradient simulation
 				const g = ctx.createLinearGradient(x, y, x, y + h);
-				g.addColorStop(0, '#82e19f');
-				g.addColorStop(1, '#82b90a');
+				g.addColorStop(0, currentTheme.white.start);
+				g.addColorStop(1, currentTheme.white.end);
 				ctx.fillStyle = g;
-				ctx.shadowBlur = 0;
+				ctx.shadowColor = currentTheme.white.shadow;
+				ctx.shadowBlur = 5 * dpr;
 				ctx.strokeStyle = 'rgba(255,255,255,0.4)';
 				ctx.globalAlpha = 0.95;
 			}
@@ -249,9 +220,6 @@
 	});
 
 	const pxPerMs = $derived(BASE_SPEED * gameState.speed);
-	const currentTheme = $derived(
-		themes[gameState.noteColor as keyof typeof themes] || themes.classic
-	);
 </script>
 
 <main class="z-5 flex flex-1 flex-col self-stretch overflow-hidden">
@@ -263,23 +231,28 @@
 		<div
 			class="relative z-20 w-16 flex-shrink-0 {gameState.isLeftHanded
 				? 'border-l-2'
-				: 'border-r-2'} flex-[0_0_64px] overflow-hidden border-pink-500/50 bg-transparent"
+				: 'border-r-2'} flex-[0_0_64px] overflow-hidden bg-transparent"
+			style="border-color: {currentTheme.accent}88;"
 		></div>
 
 		<!-- Falling zone -->
 		<div
 			class="relative flex-1 {gameState.backgroundMode === 'light'
 				? 'bg-slate-100'
-				: 'bg-transparent'} bg-gradient-to-b from-transparent to-pink-500/5 transition-colors duration-500"
+				: 'bg-transparent'} transition-colors duration-500"
+			style="background-image: linear-gradient(to bottom, transparent, {currentTheme.accent}11)"
 		>
 			{#each Array.from({ length: fretsCount + 1 }) as _, i}
 				<div
-					class="absolute top-0 bottom-0 w-px bg-pink-500/50"
-					style="{gameState.isLeftHanded ? 'right' : 'left'}: {getFretLeftPercentage(i)}%;"
+					class="absolute top-0 bottom-0 w-px"
+					style="{gameState.isLeftHanded ? 'right' : 'left'}: {getFretLeftPercentage(
+						i
+					)}%; background-color: {currentTheme.accent}55;"
 				></div>
 			{/each}
 			<div
-				class="absolute bottom-0 h-[3px] w-full bg-gradient-to-r from-transparent via-pink-400 to-transparent shadow-[0_0_15px_#ec4899]"
+				class="absolute bottom-0 h-[3px] w-full"
+				style="background-image: linear-gradient(to right, transparent, {currentTheme.accent}, transparent); box-shadow: 0 0 15px {currentTheme.accent};"
 			></div>
 		</div>
 
