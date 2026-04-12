@@ -16,8 +16,8 @@
 			onmouseleave={() => onkeyUp(key.midi)}
 			class="absolute top-0 transition-all active:translate-y-1 active:scale-y-[0.98]
             {key.type === 'white'
-				? 'z-10 border border-t-[3px] border-cyan-500/30 bg-gradient-to-b from-[#d0e8f5] via-[#f0faff] to-[#e0f2ff] shadow-md'
-				: 'z-20 border border-t-2 border-cyan-500/10 bg-gradient-to-b from-[#0a0f1a] via-[#1a2540] to-[#0d1828] shadow-2xl'}"
+				? 'z-10 border border-t-[3px] border-black/50 bg-gradient-to-b from-[#d0e8f5] via-[#f0faff] to-[#e0f2ff] shadow-md'
+				: 'z-20 border border-t-2 border-white/50 bg-gradient-to-b from-[#0a0f1a] via-[#1a2540] to-[#0d1828] shadow-2xl'}"
 			style="left: {key.left}px; width: {key.width}px; height: {key.height}px; border-radius: 0 0 6px 6px;"
 		>
 			<span
