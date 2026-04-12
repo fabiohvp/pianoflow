@@ -8,6 +8,14 @@ Blocks fall from the top of the screen toward a hit line aligned with an interac
 
 ---
 
+## 📌 Notes
+
+This project was totally made using AI-assisted ("vibe") coding, this should not be used as an example of how to build a game, design patterns or best practices.
+
+It is working but it will not receive updates or maintenance unless other people contribute to it.
+
+---
+
 ## 🚀 Getting Started
 
 ### Run locally
@@ -132,12 +140,6 @@ If the project gains traction, planned features include:
 
 Feel free to fork the project, open issues, or submit pull requests.
 Ideas, feedback, and improvements are always welcome!
-
----
-
-## 📌 Notes
-
-This project started as an experiment using AI-assisted ("vibe") coding — and evolved into a practical learning tool for piano beginners.
 
 ---
 
