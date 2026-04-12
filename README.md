@@ -80,8 +80,8 @@ Wait for the browser to open automatically and load the game.
 * **Sound modes**
   Toggle between:
 
-  * Sound mode
-  * Music mode
+  * Music sound mode
+  * Player sound mode
 
 * **Compact keyboard mode**
   Switch between compact and full layouts.
@@ -93,7 +93,7 @@ Wait for the browser to open automatically and load the game.
 For a more immersive experience:
 
 * Use a **projector above your piano**
-* Or place a **large screen/TV above the keyboard**
+* Or place a **large screen/TV above the piano**
 * Align the on-screen keys with your real piano keys
 * Adjust key count and width to match your instrument
 
@@ -115,13 +115,12 @@ Tested on:
 
 * Chrome
 * Firefox
-* Safari
 * Edge
 * WebOS Browser
 
 ---
 
-## 🔮 Future Plans
+<!-- ## 🔮 Future Plans
 
 If the project gains traction, planned features include:
 
@@ -134,7 +133,7 @@ If the project gains traction, planned features include:
 * 🏆 **Scoring system**
   Provide performance metrics and progression
 
----
+--- -->
 
 ## ❤️ Contributing
 
